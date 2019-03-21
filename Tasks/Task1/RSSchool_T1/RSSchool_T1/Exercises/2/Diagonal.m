@@ -18,6 +18,11 @@
         secondDiagonal += [(NSNumber *)updatedArray[arrayCount - i - 1][i] intValue];
     }
     
+    for (id item in updatedArray) {
+        [item release];
+    }
+    
+    [updatedArray release];
     return [NSNumber numberWithInt:abs(firstDiagonal - secondDiagonal)];
 }
 

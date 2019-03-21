@@ -13,7 +13,16 @@ const NSUInteger englishLanguageAlphabetLength = 26;
         [set addObject:[NSString stringWithFormat:@"%c", [newString characterAtIndex:i]]];
     }
     
-    return [set count] == englishLanguageAlphabetLength;
+    NSUInteger setCount = [set count];
+    
+    for (id item in set) {
+        [item release];
+    }
+    
+    [newString release];
+    [set release];
+    
+    return setCount == englishLanguageAlphabetLength;
 }
 
 @end

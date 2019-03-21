@@ -7,6 +7,7 @@
     
     for (NSNumber *item in array) {
         sum += [item doubleValue];
+        [item release];
     }
     
     return [NSNumber numberWithDouble:sum];

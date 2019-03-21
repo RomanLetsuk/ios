@@ -39,6 +39,12 @@
         [result appendString:@" "];
     }
     
+    [stringWithoutSpaces release];
+    for (id item in encryptionMatrix) {
+        [item release];
+    }
+    [encryptionMatrix release];
+    
     return [result stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 

@@ -96,6 +96,8 @@
     [mutableArray addObjectsFromArray:reversedArray];
     [mutableArray addObjectsFromArray:[array subarrayWithRange:NSMakeRange(lastIndex + 1, [array count] - lastIndex - 1)]];
     
+    [reversedArray release];
+    
     return [NSArray arrayWithArray:mutableArray];
 }
 
