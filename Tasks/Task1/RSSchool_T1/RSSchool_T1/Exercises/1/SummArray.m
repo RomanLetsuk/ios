@@ -2,9 +2,14 @@
 
 @implementation SummArray
 
-// Complete the summArray function below.
 - (NSNumber *)summArray:(NSArray *)array {
-    return @(0);
+    double sum = 0;
+    
+    for (NSNumber *item in array) {
+        sum += [item doubleValue];
+    }
+    
+    return [NSNumber numberWithDouble:sum];
 }
 
 @end
