@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59B680C3224E459C0003DB2D /* RomanArabicLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B680C2224E459C0003DB2D /* RomanArabicLink.m */; };
 		E38F8D97224A3CDE009EF306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8D96224A3CDE009EF306 /* AppDelegate.m */; };
 		E38F8D9A224A3CDE009EF306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8D99224A3CDE009EF306 /* ViewController.m */; };
 		E38F8D9F224A3CE0009EF306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38F8D9E224A3CE0009EF306 /* Assets.xcassets */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59B680C1224E459C0003DB2D /* RomanArabicLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RomanArabicLink.h; sourceTree = "<group>"; };
+		59B680C2224E459C0003DB2D /* RomanArabicLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomanArabicLink.m; sourceTree = "<group>"; };
 		E38F8D92224A3CDE009EF306 /* RSSchool_T2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38F8D95224A3CDE009EF306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E38F8D96224A3CDE009EF306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 			children = (
 				E38F8DC7224A4825009EF306 /* RomanTranslator.h */,
 				E38F8DC8224A4825009EF306 /* RomanTranslator.m */,
+				59B680C1224E459C0003DB2D /* RomanArabicLink.h */,
+				59B680C2224E459C0003DB2D /* RomanArabicLink.m */,
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38F8D9A224A3CDE009EF306 /* ViewController.m in Sources */,
+				59B680C3224E459C0003DB2D /* RomanArabicLink.m in Sources */,
 				E38F8DD2224A8AEA009EF306 /* DoomsdayMachine.m in Sources */,
 				E38F8DDA224BA508009EF306 /* MatrixHacker.m in Sources */,
 				E38F8DE1224D0B8F009EF306 /* TinyURL.m in Sources */,

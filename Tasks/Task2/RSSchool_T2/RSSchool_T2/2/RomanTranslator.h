@@ -24,6 +24,10 @@
  */
 
 @interface RomanTranslator : NSObject
+
+@property (nonatomic, retain) NSArray *alphabetArray;
+@property (nonatomic, retain) NSDictionary* romanToArabicDictionary;
+@property (nonatomic, retain) NSDictionary* arabicToRomanDictionary;
 /**
  Arabic to roman numbers converter
 
