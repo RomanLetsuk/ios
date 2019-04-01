@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59057A25225242F000C17B72 /* AssimilationInfoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 59057A24225242F000C17B72 /* AssimilationInfoObject.m */; };
 		59B680C3224E459C0003DB2D /* RomanArabicLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B680C2224E459C0003DB2D /* RomanArabicLink.m */; };
 		E38F8D97224A3CDE009EF306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8D96224A3CDE009EF306 /* AppDelegate.m */; };
 		E38F8D9A224A3CDE009EF306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8D99224A3CDE009EF306 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59057A23225242F000C17B72 /* AssimilationInfoObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssimilationInfoObject.h; sourceTree = "<group>"; };
+		59057A24225242F000C17B72 /* AssimilationInfoObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssimilationInfoObject.m; sourceTree = "<group>"; };
 		59B680C1224E459C0003DB2D /* RomanArabicLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RomanArabicLink.h; sourceTree = "<group>"; };
 		59B680C2224E459C0003DB2D /* RomanArabicLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomanArabicLink.m; sourceTree = "<group>"; };
 		E38F8D92224A3CDE009EF306 /* RSSchool_T2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +175,8 @@
 			children = (
 				E38F8DD0224A8AEA009EF306 /* DoomsdayMachine.h */,
 				E38F8DD1224A8AEA009EF306 /* DoomsdayMachine.m */,
+				59057A23225242F000C17B72 /* AssimilationInfoObject.h */,
+				59057A24225242F000C17B72 /* AssimilationInfoObject.m */,
 			);
 			path = 3;
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 				E38F8DE1224D0B8F009EF306 /* TinyURL.m in Sources */,
 				E38F8DA5224A3CE0009EF306 /* main.m in Sources */,
 				E38F8DBB224A3EF0009EF306 /* KidnapperNote.m in Sources */,
+				59057A25225242F000C17B72 /* AssimilationInfoObject.m in Sources */,
 				E38F8D97224A3CDE009EF306 /* AppDelegate.m in Sources */,
 				E38F8DC9224A4825009EF306 /* RomanTranslator.m in Sources */,
 			);
