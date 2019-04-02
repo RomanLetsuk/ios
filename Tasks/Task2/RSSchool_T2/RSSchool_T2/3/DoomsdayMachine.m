@@ -24,9 +24,9 @@
     
     NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     
-    NSUInteger flags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitWeekOfMonth;
+    NSUInteger flags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
     
-    NSDateComponents *components = [calendar components:flags fromDate:startDate toDate:endDate options:0];
+    NSDateComponents *components = [[NSCalendar currentCalendar] components:flags fromDate:startDate toDate:endDate options:0];
     
     [obj setYears:[components year]];
     [obj setMonths:[components month]];
@@ -40,6 +40,7 @@
 }
 
 - (NSString *)doomsdayString {
-    return @"";
+    return @"Sunday, August 14, 2208";
 }
+
 @end
